@@ -1,0 +1,25 @@
+#countries-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.country{
+
+    border: solid 2px rgb(51, 95, 153);
+    background-color: cornflowerblue;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: rgb(212, 212, 212);
+    height: 30px;
+    border: solid 2px white;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: rgb(4, 121, 255);
+    border: solid 2px blue;
+}
